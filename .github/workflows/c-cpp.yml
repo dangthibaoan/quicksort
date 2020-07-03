@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: BTL_CDN_de13
+    - name: configure
       run: ./BTL_CDN_de13.cpp
     - name: make
       run: make
